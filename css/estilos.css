@@ -1,0 +1,196 @@
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1, h2, h3{
+    color:#ccc;
+    text-shadow: 1px 1px 3px black;
+    font-weight: 600;
+}
+header{
+    background-color: #4d4d4d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+}
+header h1{
+    color:#f3f3f3;
+    width:100%;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li{
+    text-align: center;
+    font-size:24px;
+    width: 100%;
+}
+
+li a{
+    text-decoration: none;
+    color: #f1f1f1;
+    display: block;
+
+}
+li a:hover{
+    background-color:rgba(0,0,0,.5);
+
+}
+li a:focus{
+    background-color: green;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 2px 0;
+    color:#f1f1f1;
+}
+
+#sobre{
+    padding: 0 10px;
+    background-color: #8f3faf;
+    background:url(../img/fundo.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+}
+.botao{
+    height: 45px;
+    padding: 4px;
+    margin-bottom: 5px;
+    background-color: #f1f1f1;
+}
+.botao a{
+    text-decoration: none;
+    color: #4d4d4d;
+    font-size: 14px;
+}
+
+#precos{
+    background-color:rgb(85, 134, 163);
+    padding: 5px;
+}
+
+table{
+    width:100%;
+    margin: 10px 20px;
+}
+table, tr, th{
+    border-collapse: collapse;
+    border:3px solid black;
+}
+th{
+    height: 30px;
+    background-color:#ccc;
+}
+tr{
+    background: #dedede;
+}
+
+#portifolio{
+    background-color:#272d39;
+    padding: 4px;
+}
+#portifolio img{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#contato{
+    background: #e7746f;
+}
+form{
+    color:black;
+    width: 100%;
+    padding: 10px;
+}
+input,textarea{
+    border:solid 3px #272d39;
+    border-radius: 3px;
+    display: block;
+    padding:10px;
+    width: 100%;
+    
+}
+label{
+    display: block;
+    margin:5px 0;
+   
+}
+
+footer{
+    padding: 10px;
+    background-color:#4d4d4d;
+    color:white;
+}
+span.copyright{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px){
+
+    header{
+        position: fixed;
+        flex-direction: row;
+        width: 100%;
+        top: 0;
+    }
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .content{
+      justify-content: center;
+      padding: 10%;
+     
+    }
+    #sobre{
+        height: 100vh;
+    }
+    #precos{
+        height: 80vh;
+    }
+    tr,th,td{
+        height: 40px;
+    }
+    #portifolio{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center
+    
+    }
+    #portifolio h2{
+        width:100%;
+        text-align: center;
+    }
+    #portifolio img{
+        width:33.333333%;
+    }
+
+    #contato{
+        height: 30vh;
+    }
+    footer{
+        height: 20vh;
+        text-align: center;
+    } 
+}
+

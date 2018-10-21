@@ -1,0 +1,55 @@
+
+Big Host
+
+- Sobre
+- Serviços
+- Portifólio
+- Contato
+
+    - SOBRE
+    
+    A BigHost é uma empresa brasileira de hospedagem de sites, serviços de internet e computação em nuvem, líder no Brasil e na América Latina segundo pesquisa da International Data Corporation em 2011.
+    
+    Entre em contato
+    
+    - PRECOS
+        -Tipo
+        -Adicionais
+        -Duração
+        -Preço
+
+          -Compartilhada
+          -SSD ilimitado
+          -3 meses
+          -R$ 20,00
+        
+        
+          -VPS
+          -SSD ilimitado + Dominio Grátis
+          -5 meses
+          -R$ 60,00
+          
+        
+          -Dedicado
+          -Controle Total
+          -1 ano
+          -R$ 120,00
+        
+    
+    - PORTFÓLIO
+    
+    - CONTATO
+    
+    Entre em contato conosco
+
+    - Nome
+    - Telefone
+    - Email
+    - Mensagem
+    
+    (75) 3231 - 4432 
+    suporte@bighost.com
+    
+    Desenvolvido por AlunoX
+    
+    Copyright 2018

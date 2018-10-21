@@ -1,0 +1,27 @@
+ 
+
+h1,h2,h3 :{ cor: #ccc, sombra: black }
+
+header : { cor: #4d4d4d }
+    
+header h1 : { cor: #f3f3f3 }
+
+li a, botao : { cor: #f1f1f1; }
+
+content : { color:#f1f1f1 }
+
+sobre : { cor-do-fundo : #8f3faf }
+
+botao a {  cor: #4d4d4d }
+
+precos { cor-do-fundo :rgb(85, 134, 163) }
+
+tabela cabeçalho { cor: #ccc }
+
+tabela linha { cor: #dedede}
+
+portifolio, input, textarea border { cor-de-fundo:#272d39 }
+
+contato { cor-de-fundo : #e7746f }
+
+rodape { cor-de-fundo : #4d4d4d }
